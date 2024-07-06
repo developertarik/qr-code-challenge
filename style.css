@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 13px;
+}
+.flex,.qr{
+    border-radius: 15px;
+}
+.flex{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 22%;
+    height: 520px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.qr{
+    width: 85%;
+   
+}
+
+.text{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.qr,.text{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+     color: hsl(220, 15%, 55%)
+}
+.attribution{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 25px;
+}
